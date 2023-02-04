@@ -1,0 +1,14 @@
+{
+    "name":"saif",
+    "married":false,
+    "age":16.9,
+    "address":[{
+        "street":123,
+        "city":"jaipur"
+    },{
+        "street":123,
+        "city":"jaipur"
+    }
+],
+    "marks":[1,2,3,4,5,6,7,8,"noice"]
+}
