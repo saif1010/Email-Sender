@@ -17,7 +17,7 @@ function EmailSender() {
   const handleSendEmail = async () => {
     try {
       // Make a POST request to your backend endpoint with recipient and content data
-      const response = await axios.post('http://localhost:3000/send-email', {
+      const response = await axios.post('http://localhost:8080/send-email', {
         recipient,
         content,
       });
