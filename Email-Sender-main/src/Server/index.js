@@ -1,7 +1,7 @@
 const express = require('express');
 const nodemailer = require('nodemailer');
 const app = express();
-const port = 3000;
+const port = 8080;
 require('dotenv').config();
 
 app.use(express.json());
@@ -31,11 +31,11 @@ app.post('/send-email', async (req, res) => {
   // Define the email options
   const mailOptions = {
     from:{
-        name : 'Anmol Jain',
+        name : 'Saiful Islam',
         address : process.env.USER
       },
     to: recipient,
-    subject: 'Hello from Node.js',
+    subject: 'Hello from Saiful',
     html: content,
   };
 
